@@ -1,1 +1,6 @@
 # Trivia-Game
+
+
+Currently a simple text based jeopardy style game played through the terminal.  When the game is launched a gird appears with the catagories "Multiple Choice", "True or False" and "Free Response" denoting the types of questions in each column.  The player is prompted to choose what catagory to pick from and which point value question they want to awnswer.  After that the question is displayed and the system waits for a response.  The game ends when all the questions have been answered and your score is displayed.
+
+This is my base framework for my trivia game which I am working on expanding.  Firstly, I am working on implementing a UI for the game so that it becomes more akin to jeopardy with a nice graphic displaying the catagories.  Eventually I want the game to end up much more graphical allowing the player to mouseclick to choose the question they wish to answer and have a text field for them to answer it.  Also, currently the gameboard is hard coded so the game board is the same everytime.  I am plannig on increasing the number of questions and then making the board pull questions from that list at random when it is being intilized so that it becomes playable consecutively.
